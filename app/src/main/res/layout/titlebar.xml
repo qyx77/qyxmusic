@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/index_bar">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/game_coin_select"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/game_coin_icon"
+            android:layout_marginLeft="115dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/show_currentCoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="160dp"
+            android:textColor="@color/white"/>
+    </FrameLayout>
+</RelativeLayout>

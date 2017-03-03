@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc000000">
+    <include
+        android:id="@+id/titlePass"
+        layout="@layout/titlebar" />
+    <TextView
+        android:layout_below="@+id/titlePass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:text="恭喜过关" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+   <LinearLayout
+       android:id="@+id/word_select_container"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+       android:gravity="center_horizontal">
+
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/game_line"/>
+    <com.example.administrator.qyxmusic.com.example.administrator.qyxmusic.myui.MyGridView
+        android:id="@+id/myGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:numColumns="8"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        >
+
+    </com.example.administrator.qyxmusic.com.example.administrator.qyxmusic.myui.MyGridView>
+
+</LinearLayout>
